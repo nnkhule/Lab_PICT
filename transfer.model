@@ -1,6 +1,7 @@
+From: Valid, Frozen, Missing
+To: Valid, Missing, SameAsFrom
+Amount: Zero, Normal, OverBalance, OverLimit
+Currency: Same, Different
 
-Amount: Valid, Zero, Negative, ExceedsLimit
-Balance: Sufficient, Insufficient
-Recipient: Valid, Invalid
-AccountStatus: Active, Blocked
-OTP: Correct, Incorrect, Expired
+IF [From] = "Missing" THEN [Amount] = "Normal";
+IF [To] = "Missing" THEN [Amount] = "Normal";
