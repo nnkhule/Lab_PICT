@@ -1,0 +1,42 @@
+
+# Microsoft PICT source code (cloned separately)
+pict/
+
+# Build output and compiled binaries
+build/
+[Bb]uild/
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+*.ilk
+*.exp
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# IDE settings
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.log
+*.bak

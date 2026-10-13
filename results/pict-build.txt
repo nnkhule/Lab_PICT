@@ -1,0 +1,1 @@
+pict commit %h %ad

@@ -1,0 +1,13 @@
+Amount	Balance	Recipient	AccountStatus	OTP
+Negative	Sufficient	Valid	Active	Expired
+Valid	Insufficient	Invalid	Blocked	Correct
+ExceedsLimit	Insufficient	Valid	Active	Correct
+Zero	Sufficient	Valid	Blocked	Correct
+Valid	Sufficient	Invalid	Active	Expired
+ExceedsLimit	Sufficient	Invalid	Blocked	Incorrect
+Valid	Insufficient	Valid	Active	Incorrect
+Zero	Insufficient	Invalid	Active	Expired
+Negative	Insufficient	Invalid	Blocked	Incorrect
+ExceedsLimit	Insufficient	Valid	Blocked	Expired
+Negative	Sufficient	Invalid	Active	Correct
+Zero	Sufficient	Invalid	Active	Incorrect

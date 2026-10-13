@@ -1,0 +1,6 @@
+
+Amount: Valid, Zero, Negative, ExceedsLimit
+Balance: Sufficient, Insufficient
+Recipient: Valid, Invalid
+AccountStatus: Active, Blocked
+OTP: Correct, Incorrect, Expired
